@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".FCMReciveFromRaspActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:orientation="vertical"
+        android:background="@drawable/roundedred"
+        android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="낙상확정"
+        android:fontFamily="@font/dohyeonregular"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"/>
+
+
+    <Button
+        android:id="@+id/fcmreceivefromrasp_btn_cctvbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="cctv확인하기"
+        android:fontFamily="@font/dohyeonregular"
+        android:background="@drawable/_ripple_effect1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

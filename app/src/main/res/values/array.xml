@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="센터선택">
+        <item>과천</item>
+        <item>안양</item>
+        <item>의왕</item>
+    </string-array>
+</resources>

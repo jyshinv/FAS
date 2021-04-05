@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@color/colorFAS"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/douri_signup_img"
+          />
+    </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:textColor="@color/colorWhite"
+                    android:text="아이디"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/dohyeonregular"/>
+
+                <EditText
+                    android:id="@+id/sign_up_ET_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:inputType="text"
+                    android:textColor="@color/colorBlack"
+                    android:textCursorDrawable="@null"
+                    android:padding="5dip"
+                    android:ems="10"
+                    android:background="@drawable/rounded_edittext"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="비밀번호"
+                android:textSize="20dp"
+                android:fontFamily="@font/dohyeonregular"/>
+
+            <EditText
+                android:id="@+id/sign_up_ET_pw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginBottom="30dp"
+                android:textCursorDrawable="@null"
+                android:padding="5dip"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:background="@drawable/rounded_edittext"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="비밀번호확인"
+                android:textSize="20dp"
+                android:fontFamily="@font/dohyeonregular"/>
+
+            <EditText
+                android:id="@+id/sign_up_ET_pwcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+                android:textCursorDrawable="@null"
+                android:padding="5dip"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@drawable/rounded_edittext"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="보호자이름"
+                android:textSize="20dp"
+                android:fontFamily="@font/dohyeonregular"/>
+
+             <EditText
+                 android:id="@+id/sign_up_ET_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+                android:textCursorDrawable="@null"
+                android:padding="5dip"
+                android:ems="10"
+                 android:inputType="text"
+                android:background="@drawable/rounded_edittext"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="보호자휴대전화"
+                android:textSize="20dp"
+                android:fontFamily="@font/dohyeonregular"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+                android:textCursorDrawable="@null"
+                android:padding="5dip"
+                android:ems="10"
+                android:background="@drawable/rounded_edittext"/> -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/sign_up_Button_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:text="확인"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="@font/dohyeonregular"/>
+
+                <Button
+                    android:id="@+id/sign_up_Btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:text="취소"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="@font/dohyeonregular"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

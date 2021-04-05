@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFAS"
+    tools:context=".LoginPageActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/newlogo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="160dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="Email "
+            android:fontFamily="@font/dohyeonregular"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/login_page_ET_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/black_overlay"
+            android:hint="이메일 입력"
+            android:textCursorDrawable="@null"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:padding="5dip"
+            android:background="@drawable/rounded_edittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="pw     "
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/dohyeonregular"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/login_page_ET_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/black_overlay"
+            android:hint="4~16 자리의 비밀번호 입력"
+            android:inputType="textPassword"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:padding="5dip"
+            android:background="@drawable/rounded_edittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+      <Button
+          android:id="@+id/login_page_Btn_login"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="로그인"
+          android:onClick="signIn"
+          android:layout_marginBottom="15dp"
+          android:fontFamily="@font/dohyeonregular"
+          android:textColor="@color/colorBlack"
+          android:background="@drawable/rounded"
+          android:foreground="@drawable/_ripple_effect2"/>
+
+       <ImageButton
+           android:id="@+id/login_page_ImgBtn_signup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="signUp"
+           android:foreground="@drawable/_ripple_effect2"
+           android:src="@drawable/signupbutton"
+           android:background="@color/colorFAS"
+           android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

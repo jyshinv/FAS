@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@color/colorFAS"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/newlogo"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/main_page_Btn_logout"
+                android:foreground="@drawable/_ripple_effect3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="90dp"
+                android:layout_gravity="top"
+                android:onClick="Logout"
+                android:src="@drawable/logout" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/main_page_ImgBtn_douricheck"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:foreground="@drawable/_ripple_effect3"
+            android:src="@drawable/listbtnblack2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/_ripple_effect">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_page_tv_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/main_page_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/main_page_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorBlack" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/main_page_btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/roundedred"
+                android:text="RECORD"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/dohyeonregular"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/main_page_ImgBtn_douriregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/regbutton"
+            android:foreground="@drawable/_ripple_effect2"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/main_page_ImgBtn_cctv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cctvbutton"
+            android:foreground="@drawable/_ripple_effect2"
+            android:layout_marginLeft="1dp"/>
+
+        <ImageView
+            android:id="@+id/main_page_ImgBtn_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:foreground="@drawable/_ripple_effect2"
+            android:src="@drawable/storageimg4" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/main_page_ImgBtn_douristatistics"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:foreground="@drawable/_ripple_effect2"-->
+            <!--android:src="@drawable/stabutton"/>-->
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

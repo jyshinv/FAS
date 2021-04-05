@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    >
+    <LinearLayout
+        android:id="@+id/oldman_item_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/_ripple_effect"
+        android:gravity="center">
+
+        <!--android:scaleType="fitCenter"-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/oldman_items_iv_profile"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oldman_items_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이름 : "
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/oldman_items_tv_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="나이 : "
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/oldman_items_tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="지역 : "
+                android:textColor="@color/colorBlack" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redarrow1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

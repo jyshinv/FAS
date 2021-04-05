@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/oldman_storage_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/_ripple_effect"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/oldman_storage_tv"
+            android:layout_marginLeft="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="다운로드URL : "
+            android:textColor="@color/colorBlack"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/redarrow1" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
